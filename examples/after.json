@@ -1,0 +1,1 @@
+{"data":{"items":[{"id":101,"customer":{"name":"Ada"},"amount":"23.50","status":"paid"},{"id":102,"customer":{"name":"Lin"},"amount":"10.00","status":"paid","coupon":"WELCOME"}]}}

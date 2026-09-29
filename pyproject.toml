@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "api-drift-to-sheet"
+version = "0.1.0"
+description = "Detect JSON API field drift before exporting rows to CSV"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+authors = [{name = "Li-AmG"}]
+
+[project.scripts]
+api-drift-to-sheet = "api_drift_to_sheet.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
